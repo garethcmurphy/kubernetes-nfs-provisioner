@@ -2,6 +2,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: nfs
+  namespace: dev
   annotations:
     volume.beta.kubernetes.io/storage-class: "example-nfs"
 spec:

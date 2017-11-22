@@ -2,6 +2,7 @@ kind: ClusterRole
 apiVersion: v1
 metadata:
   name: nfs-provisioner-runner
+  namespace: dev
 rules:
   - apiGroups: [""]
     resources: ["persistentvolumes"]

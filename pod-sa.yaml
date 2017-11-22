@@ -2,6 +2,7 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: nfs-provisioner
+  namespace: dev
 spec:
   serviceAccount: nfs-provisioner
   containers:

@@ -2,6 +2,7 @@ kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1alpha1
 metadata:
   name: nfs-provisioner-runner
+  namespace: dev
 rules:
   - apiGroups: [""]
     resources: ["persistentvolumes"]
